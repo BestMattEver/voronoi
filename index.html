@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>in browser game stuff</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+  </head>
+
+  <body>
+    <button id="chooseSeeds" onClick="chooseSeeds(grid, 5)"> Generate Seeds </button>        
+	<button id="generateVoronoi" onClick="generateVoronoi(grid)"> Generate Voronoi </button>
+	<button id="reset" onClick="reset(grid)"> reset </button>        
+	<br>
+	  <canvas id="gameCanvas1" width="900px" height="900px"></canvas>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+
+  </body>
+</html>
